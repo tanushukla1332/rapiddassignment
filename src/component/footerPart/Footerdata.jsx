@@ -1,9 +1,9 @@
-// import React from 'react'
-import style from './Footer.module.css'
+
+import Foot from './Footerdata.module.css'
 
 function Footer() {
   return (
-    <div className={style.footerWrapper}>
+    <div className={Foot.footerWrapper}>
      <span>Minima ad for vitae sit</span>
      <div>
 

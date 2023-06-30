@@ -1,14 +1,14 @@
-// import React from 'react'
+
 import style from './Section9.module.css'
-import BuyLinks from "./BuyLinks"
-import Link from "./Link"
+import HyperLink from "./HyperLink"
+import Section9last from "./section9last"
 
 function Section9() {
   return (
     <div className={style.sec9wrapper}>
-      <Link/>
-      <Link/>
-      <BuyLinks/>
+      <Section9last/>
+      <Section9last/>
+      <HyperLink/>
     </div>
   )
 }

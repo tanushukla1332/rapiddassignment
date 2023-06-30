@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Nav from "./Navbar.module.css";
-import DropDownMenu from "../dropDownMenu/DropDownMenu";
+import Listdown from "../NavbarDropItem/ListDown";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { BiSolidDownArrow, BiSolidUpArrow } from "react-icons/bi";
-import DropdownMenuSmall from "../dropDownMenu/DropdownMenuSmall";
+import ListDowniind from "../NavbarDropItem/ListDowniind";
 
 function Navbar() {
   const [dropDown, setDropDown] = useState(false);
@@ -13,7 +13,7 @@ function Navbar() {
     { name: "EnterPrice", status: false },
     { name: "Pricing", status: false },
     { name: "Resources", status: false },
-    { name: "community", status: false },
+    { name: "Community", status: false },
     { name: "Login", status: false },
   ]);
   const [showHam, setShowHam] = useState(true);
@@ -68,7 +68,7 @@ function Navbar() {
             onMouseOver={() => setDropDown(true)}
             onMouseOut={() => setDropDown(false)}
           >
-            <DropDownMenu />
+            <Listdown />
           </div>
         ) : (
           ""
@@ -96,7 +96,7 @@ function Navbar() {
                 </h2>
                 {ele.status ? (
                   <span>
-                    <DropdownMenuSmall />
+                    <ListDowniind />
                   </span>
                 ) : (
                   ""

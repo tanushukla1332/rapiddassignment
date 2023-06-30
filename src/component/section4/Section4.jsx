@@ -1,5 +1,5 @@
-import Card from "./Card";
-import style from "./Card.module.css";
+import Board from "./Board";
+import style from "./Board.module.css";
 function Section4() {
   const cardData = [
     {
@@ -66,7 +66,7 @@ function Section4() {
       </div>
       <div className={style.sec4cardWrapper}>
         {cardData.map((ele, ind) => (
-          <Card key={ind} img={ele.imgLink} txt={ele.desc} btnTxt={ele.btnTxt}/>
+          <Board key={ind} img={ele.imgLink} txt={ele.desc} btnTxt={ele.btnTxt}/>
         ))}
       </div>
     </div>

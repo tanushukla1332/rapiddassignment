@@ -1,4 +1,4 @@
-import ImageCard from "./ImageCard";
+import ImageBoard from "./ImageBoard";
 import style from "./ImageCard.module.css";
 function Section8() {
   const data = [
@@ -25,7 +25,7 @@ function Section8() {
   return (
     <div className={style.sec8wrapperDiv}>
 
-      {data.map((ele,ind)=><ImageCard key={ind}
+      {data.map((ele,ind)=><ImageBoard key={ind}
         imgLink={ele.imgLink}
         titleText={ele.cardText}
         btnText={ele.btnTxt}

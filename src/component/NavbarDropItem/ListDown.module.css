@@ -18,6 +18,7 @@
   gap: 24px;
   flex: 1 0 0;
 }
+
 .menuLists h4 {
   color: #262628;
   font-size: 20px;
@@ -35,7 +36,7 @@
   border-bottom: 1px solid rgb(201, 197, 197);
 }
 .menuLists li:hover {
-  background: var(--light-theme-bg-color-surface-alt, #f1f1f1);
+  text-decoration: underline;
   box-shadow: 0px -1px 0px 0px #f1f1f1 inset;
 }
 @media  (max-width:820px) {

@@ -1,10 +1,10 @@
-import style from './Card.module.css'
+import Board from './Board.module.css'
 import { BsLink45Deg } from "react-icons/bs";
 function Card(prop) {
   return (
 
 
-<div className={style.innerCard}>
+<div className={Board.innerCard}>
     <img src={prop.img} alt="" />
 
     <p >{prop.txt}</p>
