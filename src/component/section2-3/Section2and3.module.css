@@ -215,7 +215,7 @@
 @media (max-width: 480px) {
   .wholetxt * {
     text-align: center;
-    font-size: 2.5rem;
+    font-size:2.5rem;
   }
   .label {
     margin-bottom: 10px;
@@ -267,7 +267,7 @@
     line-height: 150%;
   }
   .rightLinks a{
-    color: #003057;
+    color: rgba(20, 20, 20, 0.);
   }
   .sec3wrapper{
     margin-bottom: 0px;

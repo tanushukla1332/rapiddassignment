@@ -9,26 +9,26 @@ function Section2and3() {
       <div className={styles.label}>
         <div>
           <h1 className={styles.wholetxt}>
-            <span>Proident anim</span>
-            <span className={styles.boldtxt}> nor nulla iste.</span>
+            <span>How you design , align , and build  matters.</span>
+            <span className={styles.boldtxt}> Do it together with Figma..</span>
           </h1>
         </div>
       </div>
 
       <div className={styles.section2wrapper}>
         <div className={styles.sec2Text}>
-          Minim modi yet omnis nor quia so minima.
+        Design, Collaborative, Prototyping, User-friendly, Web-based, Responsive.
         </div>
 
         <div className={styles.sec2BtnDiv}>
           <button>
-            <span><AiOutlineMail /></span> ipsum lorem
+            <span><AiOutlineMail /></span>Gmail
           </button>
           <button>
-           <span> <BsLink45Deg /></span> ipsum lorem
+           <span> <BsLink45Deg /></span> hyperLink
           </button>
           <button>
-           <span><GoLocation /></span>   ipsum lorem
+           <span><GoLocation /></span>Map
           </button>
         </div>
       </div>

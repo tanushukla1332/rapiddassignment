@@ -1,13 +1,13 @@
 // import React from 'react'
-import style from './DropDownMenu.module.css'
+import Down from './DropDownMenu.module.css'
 function DropdownMenuSmall() {
 
 
   return (
     
-    <div className={style.innerBox}>
+    <div className={Down.innerBox}>
         <div>
-        <ul className={style.menuLists}>
+        <ul className={Down.menuLists}>
         <h4>Ipsum Lorem</h4>
             <li>Link</li>
             <li>Link</li>
@@ -17,7 +17,7 @@ function DropdownMenuSmall() {
         </ul>
         </div>
         <div>
-        <ul className={style.menuLists}>
+        <ul className={Down.menuLists}>
         <h4>Ipsum Lorem</h4>
             <li>Link</li>
             <li>Link</li>

@@ -13,8 +13,9 @@
   top: 76px;
 }
 .navBox img {
-  width: 160px;
-  height: 72px;
+  width: 100px;
+  height: 100px;
+  margin-top:20px;
 }
 .navBox ul {
   display: flex;

@@ -1,12 +1,12 @@
 
-import style from './DropDownMenu.module.css'
+import  Drop from './DropDownMenu.module.css'
 
 function DropDownMenu() {
   return (
     <>
-    <div className={style.ddMenuBox}>
-        <div className={style.innerBox}>
-        <ul className={style.menuLists}>
+    <div className={Drop.ddMenuBox}>
+        <div className={Drop.innerBox}>
+        <ul className={Drop.menuLists}>
         <h4>Ipsum Lorem</h4>
             <li>Link</li>
             <li>Link</li>
@@ -14,7 +14,7 @@ function DropDownMenu() {
             <li>Link</li>
             <li>Link</li>
         </ul>
-        <ul className={style.menuLists}>
+        <ul className={Drop.menuLists}>
         <h4>Ipsum Lorem</h4>
             <li>Link</li>
             <li>Link</li>
