@@ -1,0 +1,275 @@
+:root {
+  --btnColor: #003057;
+  --fontColor: #003057;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  justify-content: center;
+  width: 100%;
+}
+
+.label .wholetxt {
+  color: var(--fontColor);
+  font-family: "Montserrat", Helvetica;
+  font-size: 48px;
+  font-weight: 100;
+
+  /* white-space: nowrap; */
+}
+
+.label .boldtxt {
+  font-weight: 900;
+}
+
+.section2wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.sec2Text {
+  font-size: 1rem;
+  width: 50%;
+  font-weight: 700;
+}
+.sec2BtnDiv {
+  /* border: 2px solid; */
+  display: flex;
+  width: 60%;
+  gap: 1rem;
+}
+
+.sec2BtnDiv button {
+  height: 4.5rem;
+  width: 40%;
+
+  font-size: 1rem;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 3px;
+  border-radius: 5px;
+}
+.sec2BtnDiv span {
+  font-size: 1.3rem;
+}
+
+.sec2BtnDiv button:hover {
+  font-weight: 600;
+  background-color: var(--fontColor);
+  color: white;
+  border: none;
+}
+
+.sec3wrapper {
+  width: 100%;
+  display: flex;
+  gap: 2%;
+  height: 29rem;
+  margin-bottom: 50px;
+}
+
+.leftSide {
+  height: 100%;
+  width: 49%;
+}
+.leftSide img {
+  width: 100%;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-weight: 700;
+
+  /* border: 2px; */
+}
+.rightSide {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+.titleRight {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  align-items: center;
+
+  justify-content: space-around;
+  /* border: 2px solid; */
+}
+.titleRight h2 {
+  color: #003057;
+  font-weight: 900;
+}
+.titleRight a {
+  color: #003057;
+}
+.imgRight {
+  height: 100%;
+  /* margin-bottom: 1rem; */
+}
+
+.imgRight img {
+  margin-top: 10px;
+  height: 80%;
+  width: 99%;
+}
+
+.rightLinks {
+  height: 14%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  font-size: 16px;
+  padding: 1.5rem 0rem;
+}
+.rightLinks button {
+  /* width: 10rem; */
+  height: 2.5rem;
+  border-radius: 50px;
+  background-color: var(--fontColor);
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 1.5rem;
+}
+
+@media (max-width: 820px) {
+  .section2wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .rightLinks {
+    /* width: 90%; */
+  }
+  .rightLinks button {
+    width: 30%;
+  }
+  .sec2BtnDiv {
+    width: 90%;
+  }
+  .sec3wrapper {
+    display: flex;
+    flex-direction: column;
+
+    height: auto;
+  }
+  .leftSide {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftSide img {
+    width: 95%;
+  }
+  .links span {
+    color: #003057;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 1rem 0;
+  }
+  .rightSide {
+    width: 99%;
+    margin: 3rem 0;
+  }
+  .titleRight {
+    gap: 1.2rem;
+    padding: 1rem 0;
+  }
+  .rightLinks {
+    /* border: 0.1px solid red; */
+    width: 100%;
+  }
+  .sec2Text {
+    text-align: center;
+    font-weight: 800;
+  }
+}
+@media (max-width: 480px) {
+  .wholetxt * {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .label {
+    margin-bottom: 10px;
+  }
+  .wholetxt {
+    text-align: center;
+  }
+  .sec2Text {
+    width: 80%;
+    text-align: center;
+  }
+  .sec2BtnDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid; */
+  }
+  .sec2BtnDiv {
+    width: 30rem;
+  }
+  .leftSide img {
+    width: 100%;
+  }
+  .links {
+    border: 2px solid;
+    flex-wrap: wrap;
+    gap: 0;
+    width: 100%;
+  }
+  .links span {
+    font-size: 10px;
+
+    width: 40%;
+
+    align-self: stretch;
+    flex-direction: column;
+  }
+  .rightLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .rightLinks button{
+    width: 50%;
+  }
+  .rightLinks span{
+    width: 30%;
+    text-align: center;
+    line-height: 150%;
+  }
+  .rightLinks a{
+    color: #003057;
+  }
+  .sec3wrapper{
+    margin-bottom: 0px;
+  }
+}

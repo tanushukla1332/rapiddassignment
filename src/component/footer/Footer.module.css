@@ -1,0 +1,28 @@
+.footerWrapper{
+    height: 9.3rem;
+    border: 1px solid;
+    background-color: #003057;
+    color: white;
+    font-family: 'Montserrat';
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.footerWrapper span{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+@media (max-width: 480px) {
+    .footerWrapper span{
+        font-size: 1.3rem;
+    }
+.footerWrapper p{
+   line-height: 125%;
+    padding:0 4rem;
+}
+
+}
