@@ -36,49 +36,49 @@ function Section2and3() {
       <div className={Sec2.sec3wrapper}>
         <div className={Sec2.leftSide}>
           <img
-            src="https://images.unsplash.com/photo-1603486002664-a7319421e133?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8MTYlM0E5fGVufDB8fDB8fHww&w=1000&q=80"
+            src="https://cdn.pixabay.com/photo/2017/02/08/17/24/fantasy-2049567_1280.jpg"
             alt=""
           />
           <div className={Sec2.links}>
        
             <span>
               <BsLink45Deg />
-              Ipsum Lorem
+              Design
             </span>
             <span>
               <BsLink45Deg />
-              Ipsum Lorem
+              Prototyping
             </span>
             <span>
               <BsLink45Deg />
-              Ipsum Lorem
+              Product
             </span>
             <span>
               <BsLink45Deg />
-              Ipsum Lorem
+              Resources
             </span>
           </div>
         </div>
         <div className={Sec2.rightSide}>
           <div className={Sec2.titleRight}>
             <span>
-              Numquam. <b> Esse aliquip do, magni.</b>
+              Figma. <b> Design, Collaboration, Prototyping..</b>
             </span>
-            <h2>Minima ad for vitae sit</h2>
-            <a href="#">Ipsum Lorem</a>
+            <h2>Vector-based, Web-based.</h2>
+            <a href="#">click me..</a>
           </div>
           <div className={Sec2.imgRight}>
             <img
-              src="https://1.bp.blogspot.com/-jG0JKsi41w8/XAC2RMbUe3I/AAAAAAAAZ88/KGlkcW_eLlMi1ucV8oyMTa2mRUhMAoaygCLcBGAs/s1600/17Photo0095_1.jpg"
+              src="https://cdn.pixabay.com/photo/2017/12/15/13/51/polynesia-3021072_1280.jpg"
               alt=""
             />
 
             <div className={Sec2.rightLinks}>
               <button>
-                <h2><BsLink45Deg /></h2> Ipsum Lorem
+                <h2><BsLink45Deg /></h2>click me..
               </button>
-              <span>Adipisicing unde vel so dolore, consequatur.</span>
-              <a href="#">Ipsum Lorem</a>
+              <span>Interactive, Responsive, Iterative, Versatile..</span>
+              <a href="#">redi..</a>
             </div>
           </div>
         </div>
