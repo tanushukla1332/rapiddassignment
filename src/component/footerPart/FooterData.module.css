@@ -11,18 +11,15 @@
     text-align: center;
 }
 
-.footerWrapper span{
+.footerWrapper h1{
     font-size: 1.8rem;
     font-weight: 800;
 }
 
 @media (max-width: 480px) {
-    .footerWrapper span{
+    .footerWrapper h1{
         font-size: 1.3rem;
     }
-.footerWrapper p{
-   line-height: 125%;
-    padding:0 4rem;
-}
+
 
 }

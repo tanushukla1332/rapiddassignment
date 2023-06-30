@@ -8,8 +8,6 @@
   margin-bottom: 30px;
   width: 100%;
   z-index: 20;
-  position: sticky;
-  top:0;
 
 }
 .ddMenu {
@@ -100,7 +98,6 @@
     margin-bottom: 1rem;
   color: #003057;
   font-weight: 600;
-
   }
 
 }

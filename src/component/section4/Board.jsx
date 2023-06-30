@@ -6,9 +6,7 @@ function Card(prop) {
 
 <div className={Board.innerCard}>
     <img src={prop.img} alt="" />
-
     <p >{prop.txt}</p>
-
     <button><h2><BsLink45Deg/></h2>
     {prop.btnTxt}
 
