@@ -14,7 +14,6 @@ function Navbar() {
     { name: "Pricing", status: false },
     { name: "Resources", status: false },
     { name: "Community", status: false },
-    { name: "Login", status: false },
   ]);
   const [showHam, setShowHam] = useState(true);
 
