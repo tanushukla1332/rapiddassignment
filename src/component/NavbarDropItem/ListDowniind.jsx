@@ -8,21 +8,21 @@ function DropdownMenuSmall() {
         <div>
         <ul className={Down.menuLists}>
         <h4>Ipsum Lorem</h4>
-            <li>Link</li>
-            <li>Link</li>
-            <li>Link</li>
-            <li>Link</li>
-            <li>Link</li>
+            <li>Product</li>
+            <li>Designing</li>
+            <li>Collaboration</li>
+            <li>Community</li>
+            <li>Resources</li>
         </ul>
         </div>
         <div>
         <ul className={Down.menuLists}>
         <h4>Ipsum Lorem</h4>
-            <li>Link</li>
-            <li>Link</li>
-            <li>Link</li>
-            <li>Link</li>
-            <li>Link</li>
+            <li>Product</li>
+            <li>Designing</li>
+            <li>Community</li>
+            <li>Resources</li>
+            <li>shivani</li>
         </ul>
         </div>
         
