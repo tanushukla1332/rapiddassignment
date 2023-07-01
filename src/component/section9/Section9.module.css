@@ -26,7 +26,7 @@
 }
 .buyLinkWrapper {
   width: 30%;
-  /* border: 1px solid; */
+  margin-left: 0px;
 }
 .buyLinkWrapper h3 {
   padding: 0.2rem;
@@ -37,7 +37,7 @@
 }
 .buyLinks a{
   text-decoration: none;
-  padding-block:10px;
+  margin: 10px 0 0 0;
   color: black;
 
 }
@@ -66,12 +66,14 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    align-items: center;
+    /* align-items: center; */
+    margin-left: 10px;
     height: 100%;
 
   }
   .buyLinkWrapper h3{
     font-weight:900;
+    /* text-align: center; */
   }
 
   .buyLinks {
@@ -79,10 +81,12 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
   
   }
-  .buyLinks a{
-    padding-block:10px;
+  .buyLinks a {
+    margin: 0px;
+   
   }
+
 }

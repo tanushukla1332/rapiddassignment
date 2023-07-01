@@ -11,7 +11,8 @@ function BuyLinks() {
       <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /> Instagram </a>
       <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><span><FaLinkedinIn/>Linkedin</span></a>
       <a href="https://www.google.com" target="_blank" rel="noopener noreferrer"> <span><FaGoogle/>Google</span> </a>
-      <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"> <span><FaTwitter/>Twitter</span> </a>
+      {/* <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"> <span><FaTwitter/>Twitter</span> </a>
+      <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"> <span><FaTwitter/>Twitter</span> </a> */}
     </div>
     </div>
   )
