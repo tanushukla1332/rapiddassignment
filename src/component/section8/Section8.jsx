@@ -1,24 +1,24 @@
-import ImageBoard from "./ImageBoard";
-import style from "./ImageCard.module.css";
+import  ImageBoard from "./ImageBoard";
+import style from "./ImageBoard.module.css";
 function Section8() {
   const data = [
     {
       imgLink:
-        "https://cdn.pixabay.com/photo/2010/12/13/10/09/nature-2384_1280.jpg",
-      cardText: "Esse aliquip do, magni!",
-      btnTxt: "Lorem",
+        "https://cdn.pixabay.com/photo/2016/10/21/14/50/plouzane-1758197_1280.jpg",
+      cardText: "Figma start with designing!",
+      btnTxt: "Design",
     },
     {
       imgLink:
-        "https://4kwallpapers.com/images/wallpapers/yosemite-national-park-mountains-winter-sunny-day-landscape-1024x1024-37.jpg",
-      cardText: "Esse aliquip do, magni!",
-      btnTxt: "Lorem",
+        "https://cdn.pixabay.com/photo/2016/10/21/14/50/plouzane-1758197_1280.jpg",
+      cardText: "Figma start with designing!",
+      btnTxt: "Prototyping",
     },
     {
       imgLink:
-        "https://4kwallpapers.com/images/wallpapers/yosemite-national-park-mountains-winter-sunny-day-landscape-1024x1024-37.jpg",
-      cardText: "Esse aliquip do, magni!",
-      btnTxt: "Lorem",
+        "https://cdn.pixabay.com/photo/2016/10/21/14/50/plouzane-1758197_1280.jpg",
+      cardText: "Figma start with designing!",
+      btnTxt: "Colloboration",
     },
   ];
 
@@ -27,11 +27,9 @@ function Section8() {
 
       {data.map((ele,ind)=><ImageBoard key={ind}
         imgLink={ele.imgLink}
-        titleText={ele.cardText}
-        btnText={ele.btnTxt}
+        cardText={ele.cardText}
+        btnTxt={ele.btnTxt}
       />)}
-      
-      
     </div>
   );
 }

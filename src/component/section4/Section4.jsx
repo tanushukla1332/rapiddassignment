@@ -51,12 +51,6 @@ function Section4() {
       desc: "Versatile. Collaborative. Web-based. Efficient. Prototyping.",
       btnTxt: "Click me.",
     },
-    {
-      imgLink:
-        "https://cdn.pixabay.com/photo/2010/12/13/10/09/nature-2384_1280.jpg",
-      desc: "Versatile. Collaborative. Web-based. Efficient. Prototyping.",
-      btnTxt: "Click me.",
-    },
   ];
 
   return (

@@ -1,12 +1,13 @@
+
 import Image from './ImageBoard.module.css'
 import { FiShoppingCart } from 'react-icons/fi';
-function ImageCard(props) {
+function ImageBoard(props) {
+  console.log(props)
   return (
-    <div Image={{backgroundImage:`url(${props.imgLink})`}} className={Image.wrapperdiv}>
-        <h1 className={Image.titleText}>{props.titleText} </h1>
-        <button><FiShoppingCart/>  {props.btnText} </button>
+    <div style={{backgroundImage:`url(${props.imgLink})`}} className={Image.wrapperdiv}>
+        <h1 className={Image.titleText}>{props.cardText} </h1>
+        <button><FiShoppingCart/>{props.btnTxt}</button>
     </div>
   )
 }
-
-export default ImageCard
+export default ImageBoard
