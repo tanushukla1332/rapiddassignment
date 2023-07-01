@@ -7,7 +7,8 @@ function Section9() {
   return (
     <div className={style.sec9wrapper}>
       <Section9last/>
-      <Section9last/>
+      {/* <Section9last/> */}
+      <HyperLink/>
       <HyperLink/>
     </div>
   )

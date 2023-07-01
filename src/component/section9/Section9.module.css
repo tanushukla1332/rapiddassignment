@@ -35,8 +35,14 @@
   display: flex;
   flex-direction: column;
 }
+.buyLinks a{
+  text-decoration: none;
+  padding-block:10px;
+  color: black;
+
+}
 .buyLinks span {
-  color: #003057;
+  color:black;
   font-weight: 700;
   padding: 0.6rem 0;
 }
@@ -65,14 +71,18 @@
 
   }
   .buyLinkWrapper h3{
-    font-weight: 900;
+    font-weight:900;
   }
 
   .buyLinks {
     height: 5rem;
     width: 100%;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
   
+  }
+  .buyLinks a{
+    padding-block:10px;
   }
 }
