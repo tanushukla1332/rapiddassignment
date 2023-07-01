@@ -1,6 +1,8 @@
 :root {
-  --btnColor: #003057;
-  --fontColor: #003057;
+  --btnColor: #2756f3;
+  --fontColor: #2756f3;
+  background-color:whitesmoke;
+
 }
 
 * {
